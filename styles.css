@@ -2,5 +2,35 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: lightblue;
+    grid-template-areas: 
+    "nameTitle nameTitle"
+    "introMenu personalImage"
+    "foundersAndCodersLogo facMotivationalParagraph";
+
   }
+
+#nameTitle {
+  grid-area: nameTitle;
+  background-color: #f2b9bb;
+}
+
+#introMenu {
+  grid-area: introMenu;
+  background-color: #f1e1b8;
+}
+
+#personalImage {
+  grid-area: personalImage;
+  background-color: #a3ddbd;
+} 
+
+#foundersAndCodersLogo {
+  grid-area: foundersAndCodersLogo;
+  background-color: #bcb0e7;
+}
+
+#facMotivationalParagraph {
+  grid-area: facMotivationalParagraph;
+  background-color: #a3c1f3;
+}
   
