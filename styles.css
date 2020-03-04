@@ -9,9 +9,15 @@ body {
 
   }
 
+  path {
+    fill: transparent;
+  }
+
 #nameTitle {
   grid-area: nameTitle;
   background-color: #f2b9bb;
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
 }
 
 #introMenu {
